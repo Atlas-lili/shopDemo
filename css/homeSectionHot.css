@@ -1,0 +1,99 @@
+/* 热门部分 */
+section{
+	min-width: 1200px;
+}
+section .center{
+	width: 1200px;
+	margin: 0 auto;
+}
+section .center .hot{
+	position: relative;
+}
+section .center .hot aside{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 146px;
+	border: 2px solid #FF6600;
+}
+section .center .hot aside ul>.solid{
+	height: 1px;
+	background-color: #ebebeb;
+}
+section .center .hot aside li .title .head{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+	color: #333;
+	padding: 12px 2px 5px;
+	position: relative;
+}
+section .center .hot aside li .title .head a{
+	transition: color 0.5s;
+	-moz-transition: color 0.5s;	/* Firefox 4 */
+	-webkit-transition: color 0.5s;	/* Safari 和 Chrome */
+	-o-transition: color 0.5s;
+	
+}
+section .center .hot aside li .title .head span:first-child{
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	background: url("../img/slogo3.png") no-repeat;
+}
+section .center .hot aside li .title .head .arrows{
+	display: inline-block;
+	position: absolute;
+	right: 4px;
+	height: 22px;
+	width: 10px;
+	background: url("../img/slogo2.png") no-repeat;
+	background-position: -10px -932px;
+}
+section .center .hot aside li:nth-child(1) .title .head span:first-child{
+	background-position: 0 2px;
+}
+section .center .hot aside li:nth-child(3) .title .head span:first-child{
+	background-position: 0 -21px;
+}
+section .center .hot aside li:nth-child(5) .title .head span:first-child{
+	background-position: 0 -42px;
+}
+section .center .hot aside li:nth-child(7) .title .head span:first-child{
+	background-position: 0 -63px;
+}
+section .center .hot aside li:nth-child(9) .title .head span:first-child{
+	background-position: 0 -83px;
+}
+section .center .hot aside li .title .subhead{
+	padding: 5px 0px 20px 10px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #666;
+}
+section .center .hot aside li .title .subhead a{
+	display: inline-block;
+	padding: 3px 1px ;
+}
+section .center .hot aside li .title .subhead .import{
+	color: #FF6600;
+}
+section .center .hot aside li article{
+	position: absolute;
+	width: 836px;
+	height: 525px;
+	left: 132px;
+	top: 0px;
+	box-shadow: 2px 2px 1px 1px #ccc;
+}
+section .center .hot aside .normal .title .head a:hover{
+	color: #1f47a1;
+	text-decoration: underline;
+}
+section .center .hot aside .other .title .head a:hover{
+	color: #333;
+	text-decoration: none;
+}
+section .center .hot aside li .title .subhead a:hover{
+	text-decoration: underline;
+}
