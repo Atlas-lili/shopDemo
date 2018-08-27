@@ -1,14 +1,10 @@
 /* 热门部分 */
-section{
-	min-width: 1200px;
-}
+section{min-width: 1200px;}
 section .center{
 	width: 1200px;
 	margin: 0 auto;
 }
-section .center .hot{
-	position: relative;
-}
+section .center .hot{position: relative;}
 section .center .hot aside{
 	position: absolute;
 	left: 0;
@@ -50,21 +46,11 @@ section .center .hot aside li .title .head .arrows{
 	background: url("../img/slogo2.png") no-repeat;
 	background-position: -10px -932px;
 }
-section .center .hot aside li:nth-child(1) .title .head span:first-child{
-	background-position: 0 2px;
-}
-section .center .hot aside li:nth-child(3) .title .head span:first-child{
-	background-position: 0 -21px;
-}
-section .center .hot aside li:nth-child(5) .title .head span:first-child{
-	background-position: 0 -42px;
-}
-section .center .hot aside li:nth-child(7) .title .head span:first-child{
-	background-position: 0 -63px;
-}
-section .center .hot aside li:nth-child(9) .title .head span:first-child{
-	background-position: 0 -83px;
-}
+section .center .hot aside li:nth-child(1) .title .head span:first-child{background-position: 0 2px;}
+section .center .hot aside li:nth-child(3) .title .head span:first-child{background-position: 0 -21px;}
+section .center .hot aside li:nth-child(5) .title .head span:first-child{background-position: 0 -42px;}
+section .center .hot aside li:nth-child(7) .title .head span:first-child{background-position: 0 -63px;}
+section .center .hot aside li:nth-child(9) .title .head span:first-child{background-position: 0 -83px;}
 section .center .hot aside li .title .subhead{
 	padding: 5px 0px 20px 10px;
 	font-size: 12px;
@@ -75,16 +61,108 @@ section .center .hot aside li .title .subhead a{
 	display: inline-block;
 	padding: 3px 1px ;
 }
-section .center .hot aside li .title .subhead .import{
-	color: #FF6600;
-}
+section .center .hot aside li .title .subhead .import{color: #FF6600;}
 section .center .hot aside li article{
+	display: none;
 	position: absolute;
 	width: 836px;
 	height: 525px;
 	left: 132px;
 	top: 0px;
 	box-shadow: 2px 2px 1px 1px #ccc;
+	z-index: 999;
+	padding: 20px;
+}
+section .center .hot aside li:nth-child(1) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li:nth-child(3) article{
+	display: none;
+	background: white url(../img/hotbg01.jpg) no-repeat;
+	background-position: 70px 75px;
+}
+section .center .hot aside li:nth-child(5) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li:nth-child(7) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li:nth-child(9) .row:nth-child(1) article{
+	display: none;
+	background: white url(../img/hotbg02.jpg) no-repeat;
+	background-position: 70px 75px;
+}
+section .center .hot aside li:nth-child(9) .row:nth-child(2) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li:nth-child(9) .row:nth-child(3) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li:nth-child(9) .row:nth-child(4) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li:nth-child(9) .row:nth-child(5) article{
+	display: none;
+	background: white;
+}
+section .center .hot aside li article .text{margin: 0 0 10px 0;}
+section .center .hot aside li article .text>span{
+	display: block;
+	float: left;
+}
+section .center .hot aside li article .text>.sort{
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 15px;
+	color: #333;
+}
+section .center .hot aside li article .text>.all{max-width: 490px;}
+section .center .hot aside li article .text a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	float: left;
+	color: #666;
+}
+section .center .hot aside li article .text .import{color: #FF6600;}
+section .center .hot aside li article .vertical{
+	display: block;
+	width: 1px;
+	height: 16px;
+	margin: 7px 12px;
+	float: left;
+	background-color: #666;
+}
+section .center .hot aside li article .hotlogo,section .center .hot aside li article table{position: absolute;}
+section .center .hot aside li article table{
+	top: 50px;
+	right: 12px;
+}
+section .center .hot aside li article .hotlogo{
+	top: 25px;
+	right: 145px;
+	font-size: 15px;
+	color: #333;
+}
+section .center .hot aside li article table a{
+	display: block;
+	position: relative;
+	height: 38px;
+	width: 100px;
+	overflow: hidden;
+}
+section .center .hot aside li article table a img{
+	display: block;
+	position: relative;
+	top: 0px;
 }
 section .center .hot aside .normal .title .head a:hover{
 	color: #1f47a1;
@@ -94,6 +172,10 @@ section .center .hot aside .other .title .head a:hover{
 	color: #333;
 	text-decoration: none;
 }
-section .center .hot aside li .title .subhead a:hover{
-	text-decoration: underline;
-}
+section .center .hot aside li .title .subhead a:hover{text-decoration: underline;}
+section .center .hot aside .normal:hover article{display: block;}
+section .center .hot aside .normal:hover{background: white;}
+section .center .hot aside .other .row:hover{background: white;}
+section .center .hot aside  .other .subhead>.row:hover article{display: block;}
+section .center .hot aside li article .text a:hover{text-decoration: underline;}
+section .center .hot aside li article table a:hover img{top: -40px;}

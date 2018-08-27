@@ -167,7 +167,7 @@ header nav .center>.list li:nth-child(7) .mySave .allSave>.inner>.button{
 	border-radius: 3px;
 	color: white;
 }
-header nav .center>.list .clear{
+.clear{
 	width: 0;
 	height: 0;
 	clear: both;
