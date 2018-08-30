@@ -1,6 +1,6 @@
 /* 菜单栏部分 */
 header nav .center{
-	height: 130px;
+	height: 135px;
 	width: 1200px;
 	margin: 0 auto;
 	position: relative;
@@ -52,6 +52,7 @@ header nav .center .search>div>span:nth-child(2) a{
 	font-family: "微软雅黑";
 	border-left: 1px solid #5D5D5D ;
 }
+header nav .center .search>div>span:nth-child(2) a:hover{text-decoration: underline;}
 header nav .center .search>div>span:nth-child(2) a:nth-child(1){border-left: 0px;}
 /* 导航菜单 */
 header nav>.list{
@@ -144,9 +145,11 @@ header nav .allBuy,header nav .allSave{
 	border-right:3px solid #f60;
 	font-size: 12px;
 	color: #666;
+	background-color: white;
 	text-align: center;
 	line-height: 86px;
 	box-shadow: 1px 2px 2px 1px #E2E2E2;
+	z-index: 999;
 }
 header nav .allBuy>.inner{
 	display: inline-block;

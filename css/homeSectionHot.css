@@ -1,10 +1,16 @@
 /* 热门部分 */
+
+/* 侧边栏 */
 section{min-width: 1200px;}
 section .center{
 	width: 1200px;
+	height: 800px;
 	margin: 0 auto;
 }
-section .center .hot{position: relative;}
+section .center .hot{
+	height: 485px;
+	position: relative;
+}
 section .center .hot aside{
 	position: absolute;
 	left: 0;
@@ -52,7 +58,7 @@ section .center .hot aside li:nth-child(5) .title .head span:first-child{backgro
 section .center .hot aside li:nth-child(7) .title .head span:first-child{background-position: 0 -63px;}
 section .center .hot aside li:nth-child(9) .title .head span:first-child{background-position: 0 -83px;}
 section .center .hot aside li .title .subhead{
-	padding: 5px 0px 20px 10px;
+	padding: 5px 0px 10px 10px;
 	font-size: 12px;
 	font-family: "微软雅黑";
 	color: #666;
@@ -66,7 +72,7 @@ section .center .hot aside li article{
 	display: none;
 	position: absolute;
 	width: 836px;
-	height: 525px;
+	height: 450px;
 	left: 132px;
 	top: 0px;
 	box-shadow: 2px 2px 1px 1px #ccc;
@@ -80,7 +86,7 @@ section .center .hot aside li:nth-child(1) article{
 section .center .hot aside li:nth-child(3) article{
 	display: none;
 	background: white url(../img/hotbg01.jpg) no-repeat;
-	background-position: 70px 75px;
+	background-position: 70px 15px;
 }
 section .center .hot aside li:nth-child(5) article{
 	display: none;
@@ -93,7 +99,7 @@ section .center .hot aside li:nth-child(7) article{
 section .center .hot aside li:nth-child(9) .row:nth-child(1) article{
 	display: none;
 	background: white url(../img/hotbg02.jpg) no-repeat;
-	background-position: 70px 75px;
+	background-position: 70px 15px;
 }
 section .center .hot aside li:nth-child(9) .row:nth-child(2) article{
 	display: none;
@@ -179,3 +185,212 @@ section .center .hot aside .other .row:hover{background: white;}
 section .center .hot aside  .other .subhead>.row:hover article{display: block;}
 section .center .hot aside li article .text a:hover{text-decoration: underline;}
 section .center .hot aside li article table a:hover img{top: -40px;}
+
+
+/* 中右轮播 */
+section .center .hot .middleRightBanner{
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	width: 1042px;
+	height: 245px;
+}
+section .center .hot .middleRightBanner ul{
+	float:left;
+	position: relative;
+}
+section .center .hot .middleRightBanner .mBanner{
+	margin: 0 15px;
+	width: 772px;
+	height: 245px;
+}
+section .center .hot .middleRightBanner .mBanner .image a{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 772px;
+	height: 245px;
+}
+section .center .hot .middleRightBanner .mBanner .image .hover{opacity: 1;}
+section .center .hot .middleRightBanner .mBanner .nav{
+	position: absolute;
+	top: 210px;
+	right: 20px;
+}
+section .center .hot .middleRightBanner .mBanner .nav a{
+	display: block;
+	width: 26px;
+	height: 26px;
+	margin: 0 4px;
+	font-size: 12px;
+	line-height: 26px;
+	text-align: center;
+	color: white;
+	background: url(../img/round01.png) no-repeat;
+	background-position: -35px 0px;
+	float: left;
+}
+section .center .hot .middleRightBanner .mBanner .nav .hover{background-position: 0px 0px;}
+section .center .hot .middleRightBanner .rBanner{
+	width: 226px;
+	height: 241px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+section .center .hot .middleRightBanner .rBanner .image{
+	position: absolute;
+	top: 0px;
+	left: 0px;/* 轮播改变 */
+	width: 452px;
+	height: 241px;
+}
+section .center .hot .middleRightBanner .rBanner .image a{
+	display: block;
+	float: left;
+	width: 226px;
+	height: 241px;
+}
+section .center .hot .middleRightBanner .rBanner .nav{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+section .center .hot .middleRightBanner .rBanner .nav a{
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 8px;
+	background: url(../img/round02.png) no-repeat;
+	background-position: -16px 0px;
+	float: left;
+}
+section .center .hot .middleRightBanner .rBanner .nav .hover{background-position: 0px 0px;}
+
+/* 中右热销 */
+section .center .hot .middleRightHot{
+	position: absolute;
+	right: 0px;
+	top: 266px;
+	width: 1042px;
+	height: 218px;
+	background-color: white;
+}
+section .center .hot .middleRightHot>div{float:left;}
+section .center .hot .middleRightHot .mHot{
+	margin: 0 15px;
+	width: 772px;
+	height: 213px;
+	position: relative;
+}
+section .center .hot .middleRightHot .mHot .title{height: 30px;}
+section .center .hot .middleRightHot .mHot .title>div{float: left;}
+section .center .hot .middleRightHot .mHot .title .firsttitle{
+	width: 100px;
+	margin-right: 100px;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 30px;
+	color: #bf1313;
+	font-family: "微软雅黑";
+}
+section .center .hot .middleRightHot .mHot .title .countDown{width: 250px;}
+section .center .hot .middleRightHot .mHot .title .countDown span{
+	color: #666666;
+	font-family: "宋体";
+	font-weight: bold;
+	font-size: 12px;
+}
+section .center .hot .middleRightHot .mHot .title .countDown .time{
+	display: inline-block;
+	height: 29px;
+	width: 29px;
+	margin: 0 3px;
+	line-height: 29px;
+	font-size: 14px;
+	text-align: center;
+	background-color: #efefef;
+	border-radius: 2px;
+}
+section .center .hot .middleRightHot .mHot .title .more{
+	width: 100px;
+	margin-left: 222px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #666666;
+	font-family: "宋体";
+	font-weight: bold;
+}
+section .center .hot .middleRightHot .mHot .title .more span{
+	display: inline-block;
+	height: 10px;
+	width: 6px;
+	margin: 0px 3px;
+	background: url(../img/arrows01.png) no-repeat 0 0;
+}
+section .center .hot .middleRightHot .mHot .inner>.left,section .center .hot .middleRightHot .mHot .inner>.right{
+	display: block;
+	width: 9px;
+	height: 17px;
+	background: url(../img/arrows02.png) no-repeat;
+	position: absolute;
+	top: 120px;
+}
+section .center .hot .middleRightHot .mHot .inner .left{
+	background-position: 0 -17px;
+	left: 0px;
+}
+section .center .hot .middleRightHot .mHot .inner .right{
+	background-position: -9px -17px;
+	right: 0px;
+}
+section .center .hot .middleRightHot .mHot .inner .hover{background-position-y: 0px;}
+section .center .hot .middleRightHot .mHot .inner .window{
+	width: 754px;
+	height: 183px;
+	position: absolute;
+	top: 30px;
+	left: 9px;
+	overflow: hidden;
+}
+section .center .hot .middleRightHot .mHot .inner .window ul{
+	width: 1208px;
+	height: 173px;
+}
+section .center .hot .middleRightHot .mHot .inner .window li{
+	width: 150px;
+	height: 183px;
+	margin-right: 1px;
+	float: left;
+}
+section .center .hot .middleRightHot .mHot .inner .window li .image{
+	display: block;
+	width: 144px;
+	height: 108px;
+}
+section .center .hot .middleRightHot .mHot .inner .window li .text{
+	display: block;
+	max-width: 150px;
+	height: 35px;
+	line-height: 1.5;
+	overflow: hidden;
+	font-size: 12px;
+	font-family: "宋体";
+	
+}
+section .center .hot .middleRightHot .mHot .title .more:hover a{text-decoration: underline;}
+section .center .hot .middleRightHot .mHot .inner .window li .text:hover{text-decoration: underline;}
+section .center .hot .middleRightHot .mHot .inner .window li .cost{
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #FF6600;
+}
+section .center .hot .middleRightHot .rHot{
+	width: 230px;
+	height: 218px;
+	margin-left: 10px;
+}

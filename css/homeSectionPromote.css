@@ -1,0 +1,189 @@
+/* 热卖部分 */
+
+
+section .center>.promote{
+	height: 295px;
+	position: relative;
+}
+section .center>.promote .lPromote{
+	width: 960px;
+	height: 280px;
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	background-color: white;
+}
+section .center>.promote .rPromote{
+	width: 230px;
+	height: 287px;
+	position: absolute;
+	top: 8px;
+	right: 0px;
+}
+section .center>.promote .rPromote .state{
+	background-color: #f6f6f6;
+	border: 1px solid #d9d9d9;
+}
+section .center>.promote .rPromote .state dt{border-bottom: 1px dashed #d9d9d9;}
+section .center>.promote .rPromote .state dt span:nth-child(1){
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 3px;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+section .center>.promote .rPromote .state dt span:nth-child(2){
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	color: #666;
+	margin-left: 107px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+section .center>.promote .rPromote .state dd>ul{
+	height: 64px;
+	padding: 5px 8px;
+}
+section .center>.promote .rPromote .state dd>ul li{
+	height: 20px;
+	line-height: 20px;
+}
+section .center>.promote .rPromote .state dd>ul li a{
+	color: #666;
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+section .center>.promote .rPromote .state dd>ul li span{
+	display: inline-block;
+	height: 8px;
+	width: 20px;
+	background: url(../img/slogo2.png) no-repeat;
+	background-position: 0 -1031px;
+}
+section .center>.promote .rPromote .rBanner{
+	position: relative;
+	margin-top: 40px;
+	height: 120px;
+	width: 230px;
+	border: 1px solid #d9d9d9;
+}
+section .center>.promote .rPromote .rBanner>li{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+section .center>.promote .rPromote .state dt span:nth-child(2):hover{text-decoration: underline;}
+section .center>.promote .rPromote .rBanner>.hover{opacity: 1;}
+
+
+
+
+section .center>.promote .lPromote .title{
+	height: 45px;
+	border-bottom: 3px solid #FF6600;
+}
+section .center>.promote .lPromote .title>div{
+	height: 45px;
+	line-height: 45px;
+	float: left;
+}
+section .center>.promote .lPromote .title .firsttitle{
+	margin-left: 20px;
+	width: 70px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #FF6600;
+}
+section .center>.promote .lPromote .title .change{width: 70px;}
+section .center>.promote .lPromote .title .change span{
+	display: inline-block;
+	padding-bottom: 10px;
+	width: 18px;
+	height: 18px;
+	background: url(../img/change01.png) no-repeat;
+	background-position: 0px 17px;
+}
+section .center>.promote .lPromote .title .change a{
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666;
+}
+section .center>.promote .lPromote .title .more{
+	margin-left: 550px;
+	width: 250px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #484848;
+	cursor: default;
+}
+section .center>.promote .lPromote .inner{
+	height: 232px;
+	border: 1px solid #D9D9D9;
+}
+section .center>.promote .lPromote .inner ul>li{
+	width: 196px;
+	height: 215px;
+	margin-left: 38px;
+	margin-top: 20px;
+	float: left;
+	position: relative;
+}
+section .center>.promote .lPromote .inner ul>li .image{
+	display: block;
+	width: 180px;
+	height: 135px;
+	margin: 0 auto;
+}
+section .center>.promote .lPromote .inner ul>li .text{
+	display: block;
+	max-width: 196px;
+	height: 38px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666;
+	line-height: 1.5;
+	overflow: hidden;
+}
+section .center>.promote .lPromote .inner ul>li .cost{
+	margin-top: 10px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: #FF6600;
+}
+section .center>.promote .lPromote .inner ul>li .cost a{
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+	width: 45px;
+	margin-top: -6px;
+	margin-left: 28px;
+	background-color: #FF6600;
+	font-size: 12px;
+	font-family: "宋体";
+	font-weight: normal;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+}
+section .center>.promote .lPromote .inner ul>li .tag{
+	display: block;
+	width: 53px;
+	height: 55px;
+	position: absolute;
+	top: 0px;
+	right: -10px;
+}
+section .center>.promote .lPromote .inner ul>li .t1{background: url(../img/tag01.png) no-repeat;}
+section .center>.promote .lPromote .inner ul>li .t2{background: url(../img/tag02.png) no-repeat;}
+section .center>.promote .lPromote .inner ul>li .t3{background: url(../img/tag03.png) no-repeat;}
+section .center>.promote .lPromote .inner ul>li .t4{background: url(../img/tag04.png) no-repeat;}
+section .center>.promote .lPromote .title .change:hover a{text-decoration: underline;}
+section .center>.promote .lPromote .inner ul>li .text:hover{text-decoration: underline;}
+section .center>.promote .lPromote .inner ul>li .cost a:hover{background-color: orange;}

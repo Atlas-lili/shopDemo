@@ -1,0 +1,249 @@
+section .center>.shoppe{
+	margin-top: 15px;
+	height: 508px;
+	background-color: white;
+}
+section .center>.shoppe .rShoppe{
+	width: 230px;
+	height: 508px;
+	float: right;
+}
+section .center>.shoppe .rShoppe .list{height: 404px;}
+section .center>.shoppe .rShoppe .list .firsttitle{
+	height: 30px;
+	width: 223px;
+	padding-left: 5px;
+	border: 1px solid #D9D9D9;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #666;
+}
+section .center>.shoppe .rShoppe .list .listinner{
+	width: 177px;
+	height: 28px;
+	margin-left: 55px;
+	margin-top: -28px;
+	position: relative;
+}
+section .center>.shoppe .rShoppe .list .listinner li{
+	width: 57px;
+	height: 28px;
+	margin-right: 1px;
+	float: left;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.title{
+	width: 55px;
+	height: 26px;
+	line-height: 26px;
+	background-color: #D9D9D9;
+	border: 1px solid #D9D9D9;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #999;
+	text-align: center;
+}
+section .center>.shoppe .rShoppe .list .listinner li.hover>.title{
+	border-bottom: 1px solid white;
+	background-color: white;
+	color: #FF6600;
+	font-weight: bold;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner{
+	width: 228px;
+	height: 372px;
+	border-right: 1px solid #D9D9D9;
+	border-left: 1px solid #D9D9D9;
+	position: absolute;
+	left: -55px;
+	top: 28px;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner ul>li{
+	width: 218px;
+	height: 72px;
+	padding-left: 10px;
+	padding-top: 20px;
+	border-bottom: 1px solid #D9D9D9;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner ul>li .image{
+	display: block;
+	width: 80px;
+	height: 60px;
+	float: left;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner ul>li .text{
+	width: 116px;
+	margin-left: 10px;
+	float: left;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner ul>li .text a{
+	display: block;
+	max-width: 116px;
+	height: 36px;
+	line-height: 1.5;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #000;
+	overflow: hidden;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner ul>li .text .cost{
+	margin-top: 5px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #FF6600;
+	font-weight: bold;
+	cursor: default;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner{display: none;}
+section .center>.shoppe .rShoppe .list .listinner li.hover>.inner{display: block;}
+section .center>.shoppe .rShoppe .ad{
+	display: block;
+	width: 230px;
+	height: 90px;
+	margin-top: 10px;
+}
+section .center>.shoppe .rShoppe .list .listinner li>.inner ul>li .text a:hover{text-decoration: underline;}
+section .center>.shoppe .lShoppe{
+	width: 960px;
+	height: 508px;
+	float: left;
+}
+section .center>.shoppe .lShoppe>.blue{
+	border-bottom: 3px solid #2565bd;
+	color: #2565bd;
+}
+section .center>.shoppe .lShoppe>.orange{
+	border-bottom: 3px solid #FF6600;
+	color: #FF6600;
+}
+section .center>.shoppe .lShoppe>.title{
+	border-top: 1px solid #D9D9D9;
+	width: 940px;
+	height: 45px;
+	line-height: 45px;
+	padding-left: 20px;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+}
+section .center>.shoppe .lShoppe>.inner{
+	width: 936px;
+	height: 410px;
+	border: 1px solid #D9D9D9;
+	padding: 0 11px;
+}
+section .center>.shoppe .lShoppe>.inner>li{float: left;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd{
+	width: 192px;
+	height: 185px;
+	padding: 20px 18px 0px 18px;
+	position: relative;
+}
+
+section .center>.shoppe .lShoppe>.inner .shoppeAd .image{
+	display: block;
+	width: 144px;
+	height: 108px;
+	margin: 0 auto;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .tag{
+	display: block;
+	width: 53px;
+	height: 55px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .text{
+	display: block;
+	margin-top: 5px;
+	max-width: 192px;
+	height: 36px;
+	line-height: 1.5;
+	font-size: 12px;
+	color: #666666;
+	font-family: "宋体";
+	overflow: hidden;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .cost{
+	margin-top: 10px;
+	font-size: 14px;
+	color: #FF6600;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	cursor: default;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .cost .before{
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	text-decoration: line-through;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeBanner{
+	width: 480px;
+	height: 205px;
+	position: relative;
+	overflow: hidden;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeBanner .image{
+	height: 205px;
+	width: 2000px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeBanner .image a{
+	display: block;
+	width: 480px;
+	height: 205px;
+	float: left;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeBanner .nav{
+	position: absolute;
+	top: 170px;
+	right: 40px;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeBanner .nav a{
+	display: block;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	font-size: 11px;
+	line-height: 16px;
+	text-align: center;
+	color: white;
+	background: url(../img/round03.png) no-repeat;
+	background-position: -20px 0px;
+	float: left;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeBanner .nav .hover{background-position: 0px 1px;}
+section .center>.shoppe .lShoppe>.inner .special{margin: 0 6px;}
+section .center>.shoppe .lShoppe>.shoppeLogo{
+	height: 48px;
+	width: 958px;
+	border-bottom: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	border-left: 1px solid #D9D9D9;
+}
+section .center>.shoppe .lShoppe>.shoppeLogo a{
+	display: inline-block;
+	margin-top: 4px;
+	margin-left: 14px;
+	width: 100px;
+	height: 40px;
+	background-position: 0px 0px;
+}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .text:hover{text-decoration: underline;}
+section .center>.shoppe .lShoppe>.shoppeLogo a:hover{background-position: 0px 40px;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t1{background: url(../img/tag01.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t2{background: url(../img/tag02.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t3{background: url(../img/tag03.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t4{background: url(../img/tag04.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t5{background: url(../img/tag05.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t6{background: url(../img/tag06.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t7{background: url(../img/tag07.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t8{background: url(../img/tag08.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t9{background: url(../img/tag09.png) no-repeat;}
+section .center>.shoppe .lShoppe>.inner .shoppeAd .t10{background: url(../img/tag10.png) no-repeat;}
+
+
