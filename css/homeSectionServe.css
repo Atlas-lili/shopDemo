@@ -1,0 +1,118 @@
+section .center .serve{
+	margin-top: 25px;
+	height: 160px;
+}
+section .center .serve>a{
+	display: inline-block;
+	margin-left: 6px;
+}
+section .center .serve>.app,section .center .serve>div{
+	margin-top: 15px;
+	float: left;
+}
+section .center .serve>.app,section .center .serve>.wx{
+	width: 170px;
+	height: 80px;
+	padding-left: 90px;
+	background: url(../img/contact01.png) no-repeat;
+	font-family: "宋体";
+	color: #484848;
+}
+section .center .serve>.app{background-position: 0px -130px;}
+section .center .serve>.wx{
+	margin-left: 90px;
+	background-position: 0px -50px;
+}
+section .center .serve>.app .title,section .center .serve>.wx .title{
+	font-size: 14px;
+	font-weight: bold;
+}
+section .center .serve>.app .text,section .center .serve>.wx .text{
+	margin-top: 30px;
+	font-size: 12px;
+}
+section .center .serve>.email{
+	margin-left: 90px;
+	background: url(../img/contact01.png) no-repeat;
+	background-position: 0px 0px;
+}
+section .center .serve>.email .title{
+	margin-left: 54px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #484848;
+}
+section .center .serve>.email .text{
+	margin-left: 54px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: #484848;
+}
+section .center .serve>.email .text a:nth-child(2){
+	display: inline-block;
+	margin-left: 10px;
+}
+
+section .center .serve>.email input{
+	margin-top: 12px;
+	height: 24px;
+	width: 200px;
+	padding: 2px 5px 5px;
+	border: 1px solid #d8d8d8;
+	background-color: #f3f3f3;
+	color: #b7b7b7;
+}
+section .center .serve>.email>a{
+	display: inline-block;
+	margin-top: 12px;
+	height: 34px;
+	line-height: 32px;
+	padding: 0 19px;
+	background-color: #FF6600;
+	margin-top: -2px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: white;
+}	
+	
+	
+
+section .center .serve>.wb{
+	margin-left: 70px;
+	width: 140px;
+	height: 80px;
+}
+section .center .serve>.wb>p{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "宋体";
+	color: #484848;
+}
+section .center .serve>.wb>div{
+	height: 24px;
+	width: 75px;
+	border: 1px solid #d8d8d8;
+	margin-left: 60px;
+	margin-top: 5px;
+	background: url(../img/contact02.png) no-repeat;
+}
+section .center .serve>.wb>div:nth-child(2){background-position: 0px 0px;}
+section .center .serve>.wb>div:nth-child(3){background-position: 0px -30px;}
+section .center .serve>.wb>div>a{
+	display: block;
+	width: 52px;
+	height: 24px;
+	line-height: 24px;
+	background: url(../img/contact02.png) no-repeat;
+	background-position: 0px -57px;
+	margin-left: 24px;
+	font-size: 12px;
+	font-family: "宋体";
+	color: white;
+	text-align: center;
+}
+section .center .serve>.email .text a:hover{text-decoration: underline;}
+section .center .serve>.email>a:hover{background-color: orange;}
+section .center .serve>.wb>div>a:hover{	background-position: 0px -86px;}

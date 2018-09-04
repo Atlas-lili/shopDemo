@@ -1,0 +1,264 @@
+*{cursor: default;}
+section>.center{
+	height: 530px;
+	width: 1200px;
+	margin: 0 auto;
+}
+section>.center>.title{
+	height: 40px;
+	line-height: 40px;
+	padding-left: 70px;
+	color: black;
+	font-weight: bolder;
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+section>.center>.leftList{
+	width: 480px;
+	height: 520px;
+	margin-bottom: 30px;
+	float: left;
+}
+section>.center>.leftList>.bimg{
+	margin-top: 20px;
+	width: 450px;
+	height: 338px;
+	margin-bottom: 20px;
+	position: relative;
+}
+section>.center>.leftList>.bimg a{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+}
+section>.center>.leftList>.bimg a.hover{opacity: 1;}
+section>.center>.leftList>.nav{
+	width: 450px;
+	height: 64px;
+	position: relative;
+	overflow: hidden;
+}
+section>.center>.leftList>.nav .left,section>.center>.leftList>.nav .right{
+	width: 16px;
+	height: 53px;
+	background: url(../img/slogo04.png) no-repeat;
+	position: absolute;
+	z-index: 9;
+}
+section>.center>.leftList>.nav .left{
+	background-position: 0px -99px;
+	top: 5px;
+	left: 0px;
+}
+section>.center>.leftList>.nav .left:hover{
+	background-position: 0px -152px;
+	top: 0px;
+	right: 0px;
+}
+section>.center>.leftList>.nav .right{
+	background-position: -19px -99px;
+	top: 5px;
+	right: 0px;
+}
+section>.center>.leftList>.nav .right:hover{
+	background-position: -19px -152px;
+	top: 0px;
+	right: 0px;
+}
+section>.center>.leftList>.nav .simg{
+	width: 420px;
+	height: 64px;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	overflow: hidden;
+}
+section>.center>.leftList>.nav .simg ul{
+	width: 1000px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+section>.center>.leftList>.nav .simg a{
+	display: block;
+	border: 2px solid white;
+	width: 80px;
+	margin-left: 17px;
+	height: 60px;
+	float: left;
+}
+section>.center>.leftList>.nav .simg a.hover{border: 2px solid #FF6600;}
+section>.center>.rightList{
+	width: 710px;
+	height: 520px;
+	margin-bottom: 30px;
+	float: left;
+}
+section>.center>.rightList>.title{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+	font-family: "微软雅黑";
+}
+section>.center>.rightList>ul li{
+	margin-top: 15px;
+	font-size: 12px;
+	color: black;
+	font-family: "宋体";
+}
+section>.center>.rightList>ul li .name{
+	display: inline-block;
+	margin-right: 30px;
+}
+section>.center>.rightList>ul li a{color: black;}
+section>.center>.rightList>ul li:nth-child(3) .cost{
+	display: inline-block;
+	width: 250px;
+	height: 40px;
+	font-size: 16px;
+	color: #FF6600;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	position: relative;
+}
+section>.center>.rightList>ul li:nth-child(3) .cost .num{font-size: 32px;}
+section>.center>.rightList>ul li:nth-child(3) .cost .slogo{
+	display: block;
+	width: 3px;
+	height: 6px;
+	background: url(../img/slogo01.png) no-repeat;
+	background-position: -38px -193px;
+	position: absolute;
+	left: 147px;
+	top: 17px;
+}
+section>.center>.rightList>ul li:nth-child(3) .cost .text{
+	display: block;
+	height: 20px;
+	padding: 0px 4px;
+	background: #FF6600;
+	font-size: 12px;
+	color: white;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	position: absolute;
+	left: 150px;
+	top: 15px;
+}
+section>.center>.rightList>ul li:nth-child(4) .slogo{
+	display: inline-block;
+	width: 77px;
+	height: 46px;
+	background: url(../img/slogo05.png) no-repeat;
+	background-position: 20px -472px;
+}
+section>.center>.rightList>ul li:nth-child(4) .text{
+	display: block;
+	margin-left: 85px;
+}
+section>.center>.rightList>ul li:nth-child(5) a{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	line-height: 29px;
+	border: 1px solid #bfbfbf;
+	margin-right: 10px;
+	text-align: center;
+	position:relative;
+}
+section>.center>.rightList>ul li:nth-child(5) a.hover{border: 1px solid #FF6600;}
+section>.center>.rightList>ul li:nth-child(5) .hover span{
+	display: block;
+	width: 11px;
+	height: 11px;
+	background: url(../img/slogo01.png) no-repeat;
+	background-position: -67px -122px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+section>.center>.rightList>ul li:nth-child(6) a{
+	display: inline-block;
+	width: 110px;
+	height: 30px;
+	line-height: 29px;
+	border: 1px solid #bfbfbf;
+	margin-right: 10px;
+	text-align: center;
+	position:relative;
+}
+section>.center>.rightList>ul li:nth-child(6) a.hover{border: 1px solid #FF6600;}
+section>.center>.rightList>ul li:nth-child(6) .hover span{
+	display: block;
+	width: 11px;
+	height: 11px;
+	background: url(../img/slogo01.png) no-repeat;
+	background-position: -67px -122px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+section>.center>.rightList>ul li:nth-child(7){position: relative;}
+section>.center>.rightList>ul li:nth-child(7) .up,section>.center>.rightList>ul li:nth-child(7) .down{
+	display: inline-block;
+	width: 26px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #BFBFBF;
+	font-size: 17px;
+	color: #BFBFBF;
+}
+section>.center>.rightList>ul li:nth-child(7) input{
+	height: 31px;
+	width: 72px;
+	line-height: 30px;
+	text-align: center;
+	border-left: none;
+	border-right: none;
+	border-top: 1px solid #BFBFBF;
+	border-bottom: 1px solid #BFBFBF;
+}
+section>.center>.rightList>ul li:nth-child(7) .text{
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 12px;
+	color: green;
+	font-family: "宋体";
+	position: absolute;
+	top: 18px;
+}
+section>.center>.rightList>ul li:nth-child(8){
+	width: 350px;
+	text-align: center;
+	font-size: 12px;
+	color: #FF6600;
+	font-family: "宋体";
+}
+section>.center>.rightList>ul li:nth-child(8) span{
+	font-size: 14px;
+	font-weight: bold;
+}
+section>.center>.rightList>ul li:nth-child(9){
+	width: 500px;
+	height: 90px;
+	line-height: 90px;
+	background-color: #f0f0f0;
+}
+section>.center>.rightList>ul li:nth-child(9) a{
+	display: inline-block;
+	width: 214px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	font-family: "微软雅黑";
+	margin-left: 20px;
+}
+section>.center>.rightList>ul li:nth-child(9) .buy{background: #FF6600;}
+section>.center>.rightList>ul li:nth-child(9) .add{background: url(../img/slogo04.png) 30px -220px #1c429a no-repeat;}
+section>.center>.rightList>ul li:nth-child(9) .buy:hover{background-color: orange;}
+section>.center>.rightList>ul li:nth-child(9) .add:hover{background-color: #295dd7;}
