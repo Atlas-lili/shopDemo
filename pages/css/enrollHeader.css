@@ -1,0 +1,455 @@
+/* toper部分：多个网页共同的部分 */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{min-width: 1200px;}
+a{
+	text-decoration: none;
+	color: #666;
+}
+li{list-style-type: none;}
+header .toper{
+	width: 100%;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #e2e2e2;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 24px;
+	color: #666;
+}
+header .toper .center{
+	height: 24px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+header .toper .center .left{
+	position: absolute;
+	left: 0;
+}
+header .toper .center .right{
+	position: absolute;
+	right: 0;
+}
+header .toper .center .left li{
+	margin-left: 20px;
+	padding-left: 16px;
+	float: left;
+	background: url('../img/slogo1.png') 0 0 no-repeat;
+}
+header .toper .center .left li:nth-child(1){background-position: 0 7px;}
+header .toper .center .left li:nth-child(2){background-position: 0 -37px;}
+header .toper .center .left li:nth-child(3){background-position: 0 -85px;}
+header .toper .center .right li{float: left;}
+header .toper .center .right li>a{padding:0 12px;}
+header .toper .center .right li:nth-child(1) a{border-right: 1px solid #5d5d5d;}
+header .toper .center .right li:nth-child(2) a{border-left: 1px solid #5d5d5d;}
+header .toper .myEgg div:nth-child(1) span,header .toper .server div:nth-child(1) span{
+	display: inline-block;
+	margin-bottom: 2px;
+	width: 8px;
+	height: 4px;
+	background: url(../img/slogo2.png) no-repeat;
+	background-position: 0 -27px;
+}
+
+header .toper .center .right .hover{
+	display: none;
+	position: absolute;
+	top: 22px;
+	border: 1px solid #e2e2e2;
+	box-shadow: 2px 2px 2px 1px #E2E2E2;
+	z-index: 999;
+}
+header .toper .center .right .myEgg .hover{
+	left: 270px;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+}
+header .toper .center .right .myEgg .hover span{
+	font-size: 12px;
+	line-height: 50px;
+}
+header .toper .center .right .myEgg .hover a{color: #234fa7;}
+
+header .toper .center .right .server .hover{
+	left: 380px;
+	width: 120px;
+	height:80px;
+	cursor: default;
+}
+header .toper .center .right .server .hover div{
+	width: 120px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+}
+header .toper .center .right .server .hover div:nth-child(1){
+	font-size: 12px;
+	color: orange;
+	font-family: "微软雅黑";
+}
+header .toper .center .right .server .hover div:nth-child(2){
+	font-size: 10px;
+	color: #484848;
+	font-family: "微软雅黑";
+}
+header .toper .center .right .server .hover div:nth-child(3){
+	font-size: 10px;
+	color: #484848;
+	font-family: "宋体";
+}
+header .toper .center .right .server .hover span{
+	display: block;
+	float: left;
+	padding: 3px;
+	margin: 0 7px;
+	font-size: 10px;
+	color: white;
+	font-family: "宋体";
+	background-color: #4F9EE7;
+	cursor:pointer;
+}
+	/* hover伪类 */
+header .toper .myEgg:hover,header .toper .server:hover{background-color: white;}
+header .toper .myEgg:hover div:nth-child(1) span,header .toper .server:hover div:nth-child(1) span{background-position: -9px -27px;}
+header .toper .myEgg:hover .hover,header .toper .server:hover .hover{display: block;}
+header .toper .center .left>li:hover>a,header .toper .center .right>li:hover>a,header .toper .center .right .myEgg .hover a:hover{text-decoration: underline;}
+header .toper .center .left>li:nth-child(1):hover{background-position: 0 -13px;}
+header .toper .center .left>li:nth-child(2):hover{background-position: 0 -57px;}
+header .toper .center .left>li:nth-child(3):hover{background-position: 0 -105px;}
+
+
+
+/* 菜单栏部分 */
+header nav .center{
+	height: 65px;
+	padding: 25px 0px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+header nav .center .logo{
+	display: block;
+	float: left;
+	width: 318px;
+	height: 65px;
+	background: url('../img/logo.png') no-repeat;
+}
+header nav .center>.title{
+	display: block;
+	float: left;
+	margin-left: 30px;
+	height: 65px;
+	padding: 0px 15px;
+	border-left: 1px solid #f1f1f1;
+	line-height: 65px;
+	font-size: 24px;
+	color: #484848;
+	font-family: "微软雅黑";
+	
+}
+
+
+/* 登陆框 */
+section{
+	min-width: 1200px;
+	background-color: #f9f9f9;
+}
+section .center{
+	width: 1200px;
+	height: 398px;
+	margin: 0 auto;
+	position: relative;
+}
+section .center>li{
+	width: 1100px;
+	height: 398px;
+	padding: 0 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.step2,.step3{display: none;}
+section .center>.step1 div:nth-child(1){
+	margin-top: 10px;
+	text-align: right;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+}
+section .center>.step1 div:nth-child(1) a{color: #fe0000;}
+section .center>.step1 div:nth-child(1) a:hover{text-decoration: underline;}
+section .center>.step1 .step{
+	margin: 20px auto;
+	width: 655px;
+	height: 30px;
+	background: url(../img/step01.png) no-repeat 0 0;
+}
+section .center>.step1 .phone span:nth-child(1){
+	display: inline-block;
+	margin-left: 400px;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+}
+section .center>.step1 .phone{margin-top: 30px;}
+section .center>.step1 .phone input{
+	width: 257px;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #E3E3E3;
+	margin-left: 10px;
+	font-size: 14px;
+}
+section .center>.step1 .phone .text{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 17px;
+	margin-left: 4px;
+	font-size: 12px;
+	font-family: "宋体";
+	background: url(../img/slogo07.png) no-repeat;
+}
+section .center>.step1 .phone .d{
+	background-position: 0 -35px;
+	color: #FF6600;
+}
+section .center>.step1 .phone .s{
+	background-position: 0 -16px;
+	color: greenyellow;
+}
+section .center>.step1 .verify{
+	height: 33px;
+	margin-top: 30px;
+}
+section .center>.step1 .verify span:nth-child(1){
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 388px;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+	float: left;
+}
+section .center>.step1 .verify input{
+	width: 132px;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #E3E3E3;
+	margin-left: 10px;
+	font-size: 14px;
+	float: left;
+}
+section .center>.step1 .verify .img{
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 1px;
+	height: 32px;
+	width: 115px;
+	background-color: red;
+	float: left;
+}
+section .center>.step1 .verify .change{
+	display: inline-block;
+	margin-top: 5px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #666;
+	font-family: "宋体";
+	float: left;
+}
+section .center>.step1 .verify .change:hover{text-decoration: underline;}
+section .center>.step1 .verify .text{
+	display: inline-block;
+	margin-top: 5px;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 17px;
+	margin-left: 4px;
+	font-size: 12px;
+	font-family: "宋体";
+	background: url(../img/slogo07.png) no-repeat;
+	float: left;
+}
+section .center>.step1 .verify .d{
+	background-position: 0 -35px;
+	color: #FF6600;
+}
+section .center>.step1 .verify .s{
+	background-position: 0 -16px;
+	color: greenyellow;
+}
+section .center>.step1 .get{
+	display: block;
+	margin-top: 20px;
+	margin-left: 470px;
+	width:250px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #e1e1e1;
+	border: 1px solid #868686;
+	color: #484848;
+	font-size: 12px;
+	text-align: center;
+	font-family: "宋体";
+}
+section .center>.step2 div:nth-child(1){
+	margin-top: 10px;
+	text-align: right;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+}
+section .center>.step2 div:nth-child(1) a{color: #fe0000;}
+section .center>.step2 div:nth-child(1) a:hover{text-decoration: underline;}
+
+section .center>.step2 .step{
+	margin: 20px auto;
+	width: 655px;
+	height: 30px;
+	background: url(../img/step01.png) no-repeat 0 -75px;
+}
+section .center>.step2>.text{
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 10px;
+	background-color: rgba(152,251,152,0.5);
+	position: absolute;
+	top: -140px;
+	left: 400px;
+	color: #484848;
+	font-size: 24px;
+	text-align: center;
+	font-family: "微软雅黑";
+	cursor: default;
+}
+section .center>.step2 .verify span:nth-child(1){
+	display: inline-block;
+	margin-left: 400px;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+}
+section .center>.step2 .verify{margin-top: 30px;}
+section .center>.step2 .verify input{
+	width: 257px;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #E3E3E3;
+	margin-left: 10px;
+	font-size: 14px;
+}
+section .center>.step2 .verify .text{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 17px;
+	margin-left: 4px;
+	font-size: 12px;
+	font-family: "宋体";
+	background: url(../img/slogo07.png) no-repeat;
+}
+section .center>.step2 .verify .d{
+	background-position: 0 -35px;
+	color: #FF6600;
+}
+section .center>.step2 .verify .s{
+	background-position: 0 -16px;
+	color: greenyellow;
+}
+
+section .center>.step2 .input span:nth-child(1){
+	display: inline-block;
+	margin-left: 388px;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+}
+section .center>.step2 .input{margin-top: 30px;}
+section .center>.step2 .input input{
+	width: 257px;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #E3E3E3;
+	margin-left: 10px;
+	font-size: 14px;
+}
+section .center>.step2 .input .text{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding-left: 17px;
+	margin-left: 4px;
+	font-size: 12px;
+	font-family: "宋体";
+	background: url(../img/slogo07.png) no-repeat;
+}
+section .center>.step2 .input .d{
+	background-position: 0 -35px;
+	color: #FF6600;
+}
+section .center>.step2 .input .s{
+	background-position: 0 -16px;
+	color: greenyellow;
+}
+section .center>.step2 .next{
+	display: block;
+	margin-top: 20px;
+	margin-left: 465px;
+	width:250px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FF6600;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	font-family: "宋体";
+}
+section .center>.step3 div:nth-child(1){
+	margin-top: 10px;
+	text-align: right;
+	font-size: 12px;
+	color: #484848;
+	font-family: "宋体";
+}
+section .center>.step3 div:nth-child(1) a{color: #fe0000;}
+section .center>.step3 div:nth-child(1) a:hover{text-decoration: underline;}
+
+section .center>.step3 .step{
+	margin: 20px auto;
+	width: 655px;
+	height: 30px;
+	background: url(../img/step01.png) no-repeat 0 -150px;
+}
+section .center>.step3 .text{
+	margin-top: 50px;
+	color: #484848;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family: "微软雅黑";
+	cursor: default;
+}
+section .center>.step3 .next{
+	display: block;
+	margin-top: 80px;
+	margin-left: 420px;
+	width:250px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #FF6600;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	font-family: "宋体";
+}
+section .center>.step3 .next:hover{
+	background-color: orange;
+}
